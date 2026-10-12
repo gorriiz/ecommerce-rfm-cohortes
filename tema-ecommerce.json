@@ -1,0 +1,72 @@
+{
+  "name": "E-commerce · Ciruela y mango (1920x1080)",
+  "dataColors": ["#5B2A86", "#F2A541", "#2A9D8F", "#C8553D", "#8E7DBE", "#7A7585", "#B9A3D0", "#F7CE8B"],
+  "background": "#FFFFFF",
+  "foreground": "#1E1B2E",
+  "tableAccent": "#5B2A86",
+  "good": "#2A9D8F",
+  "neutral": "#F2A541",
+  "bad": "#C8553D",
+  "maximum": "#5B2A86",
+  "center": "#B9A3D0",
+  "minimum": "#F4EFF8",
+  "textClasses": {
+    "callout": { "fontSize": 36, "fontFace": "DIN", "color": "#5B2A86" },
+    "title": { "fontSize": 16, "fontFace": "Segoe UI Semibold", "color": "#1E1B2E" },
+    "header": { "fontSize": 14, "fontFace": "Segoe UI Semibold", "color": "#1E1B2E" },
+    "label": { "fontSize": 12, "fontFace": "Segoe UI", "color": "#5E5A6E" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E6E1EC" } }, "radius": 14 }],
+        "dropShadow": [{ "show": false }],
+        "padding": [{ "top": 14, "bottom": 14, "left": 18, "right": 18 }],
+        "title": [{ "show": true, "fontFamily": "Segoe UI Semibold", "fontSize": 15, "fontColor": { "solid": { "color": "#1E1B2E" } }, "alignment": "left" }],
+        "valueAxis": [{ "gridlineColor": { "solid": { "color": "#EEEAF2" } }, "gridlineStyle": "dotted", "labelColor": { "solid": { "color": "#5E5A6E" } } }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#5E5A6E" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F6F3F9" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#F6F3F9" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#5E5A6E" } }, "fontSize": 13 }],
+        "labels": [{ "color": { "solid": { "color": "#5B2A86" } }, "fontSize": 36, "fontFamily": "DIN" }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "header": [{ "fontColor": { "solid": { "color": "#5B2A86" } }, "fontFamily": "Segoe UI Semibold", "textSize": 13 }],
+        "items": [{ "fontColor": { "solid": { "color": "#1E1B2E" } }, "textSize": 13 }]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#5B2A86" } }, "fontFamily": "Segoe UI Semibold" }],
+        "values": [{ "fontColorPrimary": { "solid": { "color": "#1E1B2E" } }, "backColorPrimary": { "solid": { "color": "#FFFFFF" } }, "backColorSecondary": { "solid": { "color": "#F8F5FB" } } }],
+        "grid": [{ "gridHorizontal": false, "gridVertical": false }]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "columnHeaders": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#5B2A86" } }, "fontFamily": "Segoe UI Semibold" }],
+        "rowHeaders": [{ "fontColor": { "solid": { "color": "#1E1B2E" } }, "fontFamily": "Segoe UI Semibold" }],
+        "grid": [{ "gridHorizontal": true, "gridHorizontalColor": { "solid": { "color": "#FFFFFF" } }, "gridVertical": true, "gridVerticalColor": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    }
+  }
+}
